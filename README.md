@@ -14,15 +14,17 @@ Aplicación de escritorio con interfaz gráfica desarrollada en Python. Permite:
 
 ## 🖥️ Captura de pantalla
 
-![image](https://github.com/user-attachments/assets/d2607c92-1520-406f-ab0b-897b41c3d1bc)
+![image](https://github.com/user-attachments/assets/aa3ab7b9-f826-4095-ae69-a967fdf62627)
 
 ## 🚀 Cómo usar
 
 1. Descargar el archivo `.exe` y ejecutarlo
 2. Ingresar un valor en USD o ARS en alguno de los 2 campos correspondientes:
-   - Si se desea convertir un valor de USD a ARS, se puede ingresar manualmente y de forma opcional la cotización de Astropay o cambiar la comisión de compra de dólar MEP a la entidad deseada.
+   - Si se desea convertir un valor de USD a ARS se puede:
+     - Ingresar manualmente y de forma opcional la cotización de Astropay (a la que se puede acceder de forma directa a través del botón 🔗)
+     - Cambiar la comisión de compra de dólar MEP a la entidad deseada.
    - Si se desea calcular los impuestos de un gasto en ARS en un producto extranjero, se puede cambiar el impuesto adicional vigente por provincia.
-3. Seleccionar `Convertir USD a ARS` o `Calcular Impuestos`
+3. Seleccionar `Convertir USD a ARS` o `Calcular Impuestos` según corresponda.
 
 ## ⚙️ Entidades soportadas para MEP
 
@@ -31,8 +33,7 @@ Se pueden elegir entidades como MercadoPago, Brubank, Ualá, Santander, Galicia,
 ## 🧠 Fuentes de datos
 
 - Cotizaciones obtenidas en tiempo real desde [dolarapi.com](https://dolarapi.com)
-- Cotizaciones adicionales para Astropay pueden obtenerse desde [dolarito.ar](https://www.dolarito.ar/) o [dolarya.info](https://www.dolarya.info/)
-- Comisiones de compra de dolar MEP para las distintas entidades se pueden obtener buscando en las correspondientes páginas web de cada entidad.
+- Cotizaciones adicionales para Astropay obtenidas desde [dolarya.info](https://www.dolarya.info/)
 
 ## 📄 Licencia
 
